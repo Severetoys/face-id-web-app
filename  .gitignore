@@ -1,0 +1,72 @@
+body {
+    background-color: #0f0f0f;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+#login-options {
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.login-btn {
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-btn.google {
+    background-color: #d02e2a;
+}
+
+.login-btn.facebook {
+    background-color: #2d4486;
+}
+
+.login-btn.twitter {
+    background-color: #1d8dee;
+}
+
+.login-btn.microsoft {
+    background-color: #000000;
+}
+
+.login-btn.yahoo {
+    background-color: #4c00c7;
+}
+
+.login-btn.email {
+    background-color: #e22c29;
+}
+
+#face-recognition {
+    position: relative;
+    width: 720px;
+    margin: 20px auto;
+}
+
+#video, #canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#canvas {
+    z-index: 1;
+}
+
+a {
+    color: #24ff87;
+    text-decoration: none;
+}
+
+.terms {
+    text-align: center;
+    font-size: 9px;
+    color: #ffffff;
+    margin-top: 20px;
+}
