@@ -1,0 +1,17 @@
+face-id-web-app
+├── src
+│   ├── public
+│   │   ├── css
+│   │   │   └── styles.css
+│   │   ├── js
+│   │   │   ├── main.js
+│   │   │   └── face-detection.js
+│   │   └── index.html
+│   ├── server
+│   │   └── server.js
+│   └── lib
+│       └── face-api.min.js
+├── package.json
+├── .env
+├── .gitignore
+└── README.md
